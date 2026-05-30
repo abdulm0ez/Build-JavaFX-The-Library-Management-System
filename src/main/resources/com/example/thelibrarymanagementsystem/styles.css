@@ -1,0 +1,216 @@
+.root {
+    -fx-font-family: "Georgia", Arial, sans-serif;
+    -fx-background-color: #101419;
+    -fx-text-fill: #e8edf2;
+}
+
+.login-root {
+    -fx-background-color: linear-gradient(to bottom right, #111820, #21302a);
+}
+
+.login-panel, .form-panel {
+    -fx-background-color: #18212a;
+    -fx-background-radius: 8;
+    -fx-border-color: #2d3a45;
+    -fx-border-radius: 8;
+}
+
+.brand-title {
+    -fx-font-family: "Georgia", "Cambria", "Segoe UI", serif;
+    -fx-font-size: 34px;
+    -fx-font-weight: 900;
+    -fx-text-fill: #f5f8fb;
+}
+
+.muted, .hint, .sidebar-role {
+    -fx-text-fill: #9fb0bd;
+}
+
+.hint {
+    -fx-font-size: 12px;
+}
+
+.app-root {
+    -fx-background-color: #101419;
+}
+
+.sidebar {
+    -fx-background-color: #151d25;
+    -fx-border-color: transparent #28333e transparent transparent;
+}
+
+.sidebar-title {
+    -fx-font-family: "Georgia", "Cambria", "Segoe UI", serif;
+    -fx-font-size: 24px;
+    -fx-font-weight: 900;
+    -fx-text-fill: #f7fbff;
+    -fx-padding: 0 0 4 0;
+}
+
+.sidebar-role {
+    -fx-font-size: 12px;
+    -fx-padding: 0 0 14 0;
+}
+
+.nav-button {
+    -fx-background-color: transparent;
+    -fx-text-fill: #ced8e0;
+    -fx-padding: 11 12;
+    -fx-background-radius: 7;
+    -fx-cursor: hand;
+}
+
+.nav-button:hover {
+    -fx-background-color: #22303a;
+}
+
+.nav-active {
+    -fx-background-color: #2f7f74;
+    -fx-text-fill: white;
+}
+
+.page-title {
+    -fx-font-size: 28px;
+    -fx-font-weight: 800;
+    -fx-text-fill: #f4f7fa;
+}
+
+.section-title {
+    -fx-font-size: 18px;
+    -fx-font-weight: 800;
+    -fx-text-fill: #f4f7fa;
+}
+
+.warning-text {
+    -fx-text-fill: #f2c14e;
+    -fx-font-weight: 700;
+}
+
+.metric-card {
+    -fx-background-color: #18212a;
+    -fx-background-radius: 8;
+    -fx-border-color: #2d3a45;
+    -fx-border-radius: 8;
+    -fx-padding: 18;
+}
+
+.metric-label {
+    -fx-text-fill: #9fb0bd;
+    -fx-font-size: 13px;
+}
+
+.metric-value {
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 30px;
+    -fx-font-weight: 800;
+}
+
+.primary-button, .soft-button, .danger-button {
+    -fx-background-radius: 7;
+    -fx-padding: 9 15;
+    -fx-font-weight: 700;
+    -fx-cursor: hand;
+}
+
+.primary-button {
+    -fx-background-color: #2f7f74;
+    -fx-text-fill: white;
+}
+
+.primary-button:hover {
+    -fx-background-color: #3a9488;
+}
+
+.soft-button {
+    -fx-background-color: #25323d;
+    -fx-text-fill: #e7eef4;
+}
+
+.soft-button:hover {
+    -fx-background-color: #31424f;
+}
+
+.danger-button {
+    -fx-background-color: #8d3a42;
+    -fx-text-fill: white;
+}
+
+.danger-button:hover {
+    -fx-background-color: #a64b54;
+}
+
+.text-field, .password-field, .combo-box, .date-picker, .spinner {
+    -fx-background-color: #0f151b;
+    -fx-text-fill: #edf3f7;
+    -fx-prompt-text-fill: #71828f;
+    -fx-border-color: #344451;
+    -fx-border-radius: 7;
+    -fx-background-radius: 7;
+}
+
+.label {
+    -fx-text-fill: #dbe4eb;
+}
+
+.table-view {
+    -fx-background-color: #18212a;
+    -fx-border-color: #2d3a45;
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #22303a;
+}
+
+.table-view .column-header, .table-view .filler {
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: #eaf1f6;
+    -fx-font-weight: 800;
+}
+
+.table-row-cell {
+    -fx-background-color: #18212a;
+    -fx-text-fill: #edf3f7;
+}
+
+.table-row-cell:odd {
+    -fx-background-color: #151d25;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #2f7f74;
+}
+
+.table-cell {
+    -fx-text-fill: #edf3f7;
+    -fx-border-color: transparent #25323d transparent transparent;
+}
+
+.chart {
+    -fx-background-color: #18212a;
+    -fx-background-radius: 8;
+    -fx-border-color: #2d3a45;
+    -fx-border-radius: 8;
+    -fx-padding: 14;
+}
+
+.chart-title, .axis-label {
+    -fx-text-fill: #eaf1f6;
+}
+
+.axis {
+    -fx-tick-label-fill: #aebdc8;
+}
+
+.report-output {
+    -fx-control-inner-background: #0f151b;
+    -fx-text-fill: #edf3f7;
+    -fx-highlight-fill: #2f7f74;
+    -fx-background-radius: 8;
+    -fx-border-color: #2d3a45;
+    -fx-border-radius: 8;
+}
